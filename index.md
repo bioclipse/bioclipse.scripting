@@ -2,3 +2,4 @@
 
 * [Introduction](intro.md)
 * [Core functionality](core.md)
+  * [The `bioclipse` manager](core.md#the-bioclipse-manager)
