@@ -1,5 +1,5 @@
 # bioclipse.scripting
-Bioclipse Scripting - The Book
+[Bioclipse Scripting - The Book](index.md)
 
 Authors:
 * Egon Willighagen
