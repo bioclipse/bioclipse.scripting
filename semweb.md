@@ -148,9 +148,9 @@ distributed querying. The LDF software used in Bioclipse provides the functional
 by exposing a *fragment* as a RDF store. That is very fortunate, because it
 means we can automatically integrate it with the existing RDF functionality, for example
 provided by the `rdf` manager. For example, we can query for and validate CAS
-registry numbers in WikiData:
+registry numbers in WikiData (as Groovy script):
 
-```js
+```groovy
 wikidataldf = ldf.createStore(
   "http://data.wikidataldf.com/wikidata"
 )
