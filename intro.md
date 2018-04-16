@@ -64,6 +64,8 @@ for.
 
 For example, Bioclipse knows the following domain objects used in the sciences:
 
+| Domain Object | Purpose |
+|---------------|---------|
 | IMolecule | a chemical structure |
 | IProtein | a protein sequence |
 | IProteinCrystal | a protein crystal structure |
