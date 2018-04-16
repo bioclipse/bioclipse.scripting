@@ -98,7 +98,7 @@ gist:
 gist.download(6282642)
 ```
 
-# The `js` manager
+## The `js` manager
 
 The `js` manager is one specific for the JavaScript environment. It has a few
 commands that allow you to interact with the console, for example. To clear the
