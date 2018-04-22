@@ -10,6 +10,10 @@ This work is made available under the
 license.
 
 * [Introduction](intro.md)
+  * [Downloading, installing and updating Bioclipse](intro.md#downloading-installing-and-updating-bioclipse)
+  * [Scripting Languages](intro.md#scripting-languages)
+  * [Extensions](intro.md#extensions)
+  * [Domain Objects](intro.md#domain-objects)
 * [Core functionality](core.md)
   * [The `bioclipse` manager](core.md#the-bioclipse-manager)
   * [The `gist` manager](core.md#the-gist-manager)
