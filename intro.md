@@ -64,9 +64,9 @@ Besides managers, Bioclipse also extends the scripting language with a few
 basic, helpful commands. For example, to get documentation you can use the
 `man` command, for example, for itself:
 
-``js
+```js
 man man
-``
+```
 
 BTW, help is a synonym:
 
