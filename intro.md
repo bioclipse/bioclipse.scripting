@@ -45,6 +45,28 @@ The installation on Mac consists of dragging the `.app` file to the
 Applications folder. You then start Bioclipse from the Applications folder just
 like any other program. 
 
+### Updating and installing new features}
+Bioclipse is a highly customizable piece of software. New features and new
+versions of features can be installed as needed in your Bioclipse
+installation.
+
+When Bioclipse starts, it checks the update site for new versions of what is
+already installed. If new versions are found, you are given the option to
+download them. If you choose to do so, the new versions will be downloaded.
+Once this is done, Bioclipse must be restarted to allow the new features to be
+used.
+
+Bioclipse ships with, among other things, components for handling molecules but
+more advanced things like, for example, OpenTox support must be installed
+separately. To do this click `Install` in the top menu and then choose
+`New ...` This brings up a dialog showing all
+features available for installation. By clicking the check box named
+`Show installed` you can also see what features are already
+installed in your workbench.
+
+Select what you want to install, accept the licenses and wait while Bioclipse
+restarts with the new features.
+
 ## Scripting Languages
 
 Bioclipse supports scripting in three programming languages:
