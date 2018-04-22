@@ -19,13 +19,31 @@ and is mainly cut from the *Getting started with Bioclipse 2.6* folder.
 
 Bioclipse for Windows comes in a couple of different packages. Either as a
 `.zip` file or as an installation program and either as 32 or 64 bit. To
-find out if you have 32 or 64 bit in Windows~XP  and Windows~7 right click the
+find out if you have 32 or 64 bit in Windows&nbsp;XP  and Windows&nbsp;7 right click the
 icon named `My computer` and choose `properties`. On
 Windows~8 you need to go to `System and Security` and
 then `view basic information about your computer`.  Normally, the installation program should be
 the obvious choice but if, for whatever reason, that does not work you can use
 the zip file. The Linux version is packaged as a tar.gz file and the Mac
 version comes as a .dmg file. These packages are available from https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.1/ .
+
+### Installing
+The installation procedure differs between the operating systems. Bioclipse
+needs a Java installation to be present on the computer. To install Java, visit
+[www.java.com](http://www.java.com) and follow the instructions. If you are not sure whether or
+not you have Java, you can also check that on [www.java.com](http://www.java.com).
+
+#### Windows XP, 7 and 8
+If you downloaded Bioclipse as a `.zip` file you need to unzip it to a
+location where you want it and then start it from the `Bioclipse.exe`
+file. If you downloaded the installation program simply double click the file
+to start the installation program which will install Bioclipse on your machine
+and add it to the Start menu (on Windows&nbsp;XP, and Windows&nbsp;7).
+
+#### Mac OS X
+The installation on Mac consists of dragging the `.app` file to the
+Applications folder. You then start Bioclipse from the Applications folder just
+like any other program. 
 
 ## Scripting Languages
 
