@@ -1,9 +1,8 @@
 # bioclipse.scripting
-[Bioclipse Scripting - The Book](index.md)
+Read it here at [Bioclipse Scripting - The Book](index.md) or [online](https://bioclipse.github.io/bioclipse.scripting/).
 
-Authors:
-* Egon Willighagen
-* Jonathan Alvarsson
+* [Egon Willighagen](https://orcid.org/0000-0001-7542-0286) (Maastricht University)
+* [Jonathan Alvarsson](https://orcid.org/0000-0002-8682-7206) (Uppsala University)
 
 Copyright (C) 2014-2018 The Authors
 
