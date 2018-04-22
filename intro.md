@@ -45,7 +45,38 @@ The installation on Mac consists of dragging the `.app` file to the
 Applications folder. You then start Bioclipse from the Applications folder just
 like any other program. 
 
-### Updating and installing new features}
+#### Ubuntu Linux
+There is nothing special about the Linux distribution Ubuntu with regards to
+Bioclipse and it should work fine with other distributions as well. However we
+have tested Ubuntu and show how to get it running on Ubuntu. Hopefully you can
+adapt the instructions to your local distribution.
+The Linux version of Bioclipse comes packed in a `tar.gz` file. All you need to
+do is to unpack the file to some suitable location and start from there.
+Bioclipse uses Java and has been tested with OpenJDK on Ubuntu Linux and Debian
+GNU/Linux. 
+
+OpenJDK can be found by searching for `Java` at the Ubuntu software center.
+When you have found OpenJDK there, Java can be installed by just a simple
+click. The way to install OpenJDK can differ in other distributions of Linux,
+but as soon as you have installed OpenJDK Bioclipse should be runnable. When
+Java has been properly installed, Bioclipse can be started by double clicking
+the file named `bioclipse`.
+
+### Starting Bioclipse for the first time
+When you start Bioclipse for the first time a Welcome page is shown.
+
+Spend some time looking at the various sub pages. Make sure to import the
+sample data if you want some data to play with. Just the empty workspace makes
+it difficult to test the different parts of Bioclipse.
+
+The arrow in the upper corner brings you to the workbench. If you didn't try
+the `Introductory Bioclipse tutorial` from the Welcome
+page it is also reachable from the `Help` menu by choosing `Cheat Sheets`
+and then selecting the `Using the Bioclipse Workbench` cheat
+sheet. It might be a good idea to spend some time following the instructions in
+this cheat sheet before you start exploring Bioclipse on your own.
+
+### Updating and installing new features
 Bioclipse is a highly customizable piece of software. New features and new
 versions of features can be installed as needed in your Bioclipse
 installation.
