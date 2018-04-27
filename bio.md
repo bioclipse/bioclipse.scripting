@@ -2,8 +2,9 @@
 
 ## The `biojava` manager
 
-BioJava is a library oriented at `dna`, `rna`, and protein
-sequences. With this
+BioJava (doi:[10.1093/bioinformatics/btn397](https://doi.org/10.1093/bioinformatics/btn397),
+doi:[10.1093/bioinformatics/bts494](https://doi.org/10.1093/bioinformatics/bts494))
+is a library oriented at `dna`, `rna`, and protein sequences. With this
 manager we can create data models for sequences, such as a `dna`
 sequence from `fasta` string:
 
@@ -32,7 +33,7 @@ prot = biojava.translationOf(rna)
 
 ## The `bridgedb` manager
 
-BridgeDb is a platform for identifier mapping. The
+BridgeDb is a platform for identifier mapping (doi:[10.1186/1471-2105-11-5](https://doi.org/10.1186/1471-2105-11-5)). The
 Bioclipse manager makes its functionality available.
 
 At the core, BridgeDb is a framework, but the project also provides actual
