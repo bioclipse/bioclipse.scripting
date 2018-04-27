@@ -3,8 +3,10 @@
 ## The `cdk` manager
 
 Basic cheminformatics in Bioclipse is mainly handled by the Chemistry
-Development Kit (CDK) and for this there is the
-`cdk` manager.
+Development Kit (CDK, doi:[10.1021/CI025584Y](https://doi.org/10.1021/CI025584Y), 
+doi:[10.2174/138161206777585274](https://doi.org/10.2174/138161206777585274),
+doi:[10.1186/S13321-017-0220-4](https://doi.org/10.1186/S13321-017-0220-4))
+and for this there is the `cdk` manager.
 
 The cdk manager is one with many features. One is to validate
 CAS registry numbers, identifiers used by the Chemical Abstract
@@ -103,7 +105,8 @@ cdx.perceiveCDKAtomTypes(mol)
 ## The `inchi` manager
 
 The `inchi` manager makes functionality from the InChI
-standard available.
+standard available (doi:[0.1186/1758-2946-5-7](https://doi.org/0.1186/1758-2946-5-7),
+doi:[10.1186/1758-2946-5-14](https://doi.org/10.1186/1758-2946-5-14)).
 The InChI library is not available as a Java library, but is included as a
 binary for a selection of platforms and operating systems. This means that we
 cannot assume the InChI functionality is always available in Bioclipse.
@@ -133,7 +136,7 @@ InChIKey = anInChI.getKey()
 ## The `opsin` manager
 
 The `opsin` manager makes functionality from the OPSIN
-available: convert IUPAC names to chemical
+available (doi:[10.1021/CI100384D](https://doi.org/10.1021/CI100384D)): convert IUPAC names to chemical
 structures.
 
 ```js
