@@ -69,8 +69,8 @@ chemspider.substructureSearch(
 
 ## The openphacts manager
 
-Open PHACTS is a semantic web-based knowledge platform under
-development to support drug discovery. It provides a
+Open PHACTS is a semantic web-based knowledge platform under development to support
+drug discovery (doi:[10.1016/J.DRUDIS.2012.05.016](https://doi.org/10.1016/J.DRUDIS.2012.05.016)). It provides a
 REST-like interface of which some of the methods are exposed by the openphacts
 managers. Because it is a semantic web platform, compounds, diseases, proteins,
 and pathways are all identified with URIs. Practically, however, we start with
@@ -127,8 +127,9 @@ similarCompounds = openphacts.findSimilar(
 
 OpenTox is a platform for toxicology, allowing for sharing of
 data as well as creating and running computational
-models. The opentox manager integrates much of its
-functionality.
+models (doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7)). 
+The opentox manager integrates much of its
+functionality (doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487)).
 
 There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
@@ -143,7 +144,7 @@ models = opentox.listModels(registry);
 
 Similarly, using a particular OpenTox service, e.g. an
 `ambit` instance at
-http://apps.ideaconsult.net:8080/ambit2/, we
+http://apps.ideaconsult.net:8080/ambit2/ (doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18)), we
 can list data sets and features
 (properties):
 
@@ -154,7 +155,7 @@ features = opentox.listFeatures(service);
 ```
 
 Instead of listing, we can also search for various types, such as the ToxTree
-models:
+models (doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871)):
 
 ```js
 models = opentox.searchModels(registry, "ToxTree");
