@@ -9,8 +9,8 @@ technologies can be used in Bioclipse.
 
 ## The `rdf` manager
 
-The `rdf manager can be used to handle Resource Description Framework
-(RDF) data. The basic unit of
+The `rdf` manager can be used to handle Resource Description Framework
+(RDF) data (see doi:[10.1186/1758-2946-3-19](https://doi.org/10.1186/1758-2946-3-19)). The basic unit of
 information in RDF is a triple and these triples are stored in a
 *triple store*. A file based store can be created with this
 code:
@@ -73,10 +73,9 @@ rdf.asTurtle(knowledgebase);
 
 ## The `owlapi` manager
 
-The `owlapi` manager exposes functionality of the
-OWLAPI library, to deal with Web
-Ontology Languages (OWL)
-ontologies. The manager is oriented at ontologies in the Bioclipse workspace.
+The `owlapi` manager exposes functionality of the OWLAPI library, to deal with Web Ontology
+Languages (OWL) ontologies (doi:[10.3233/SW-2011-0025](https://doi.org/10.3233/SW-2011-0025)).
+The manager is oriented at ontologies in the Bioclipse workspace.
 Thus, loading an ontology works like:
 
 ```js
