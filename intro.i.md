@@ -5,17 +5,19 @@ Commons 4.0 Attribution ShareAlike license. Therefore, feel free to copy this
 book, share it with friends, or extend it with additional code examples.
 
 We will explain some basics of the Bioclipse Scripting Language (bsl)
-idea (doi:[10.1186/1471-2105-10-397](https://doi.org/10.1186/1471-2105-10-397)), and then the following chapters will
+idea [<cite>Q21284369</cite>], and then the following chapters will
 describe functionality available in this language. Each chapter is
 written around a particular area. But before we get to scripting let's look at
-how to get [Bioclipse](http://bioclipse.net/) running!
+how to get Bioclipse running!
 
 ## Downloading, installing and updating Bioclipse
 
 This section gives a short introduction for how to get started with Bioclipse
-and is mainly cut from the *Getting started with Bioclipse 2.6* folder. 
+and is mainly cut from the *Getting started with Bioclipse 2.6* folder. There
+are two versions of Bioclipse that can be used. The main option is Bioclipse 2.6.
+But an alternative is using [Bacting](https://github.com/egonw/bacting) and Groovy.
 
-### Downloading
+### Downloading Bioclipse 2.6
 
 Bioclipse for Windows comes in a couple of different packages. Either as a
 `.zip` file or as an installation program and either as 32 or 64 bit. To
@@ -115,7 +117,7 @@ example, in the field of cheminformatics.
 
 Besides managers, Bioclipse also extends the scripting language with a few
 basic, helpful commands. For example, to get documentation you can use the
-`man` command, for example, for itself:
+`man` command (not available for Bacting), for example, for itself:
 
 ```js
 man man
@@ -156,3 +158,9 @@ Furthermore, a further set of more general objects are defined:
 | Domain Object | Purpose |
 |---------------|---------|
 | IRDFStore | a triple store |
+
+
+## References
+
+<references/>
+
