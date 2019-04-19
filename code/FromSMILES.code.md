@@ -6,7 +6,7 @@ Bioclipse workspace used can be found
 ### Bioclipse 2.6
 ```groovy
 mol = cdk.fromSMILES("COC")
- println mol
+println mol
 ```
 ### Bacting
 To run this code, you first need to install
@@ -19,7 +19,7 @@ workspaceRoot = "../ws"
 cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
 
 mol = cdk.fromSMILES("COC")
- println mol
+println mol
 ```
 ## Output
 ```plain

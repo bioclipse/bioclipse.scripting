@@ -4,4 +4,4 @@
 ~cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
 ~
 mol = cdk.fromSMILES("COC")
-# println mol
+#println mol
