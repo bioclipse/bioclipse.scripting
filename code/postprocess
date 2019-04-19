@@ -6,7 +6,6 @@ import java.io.*;
 import java.util.*;
 
 GROOVY = ".groovy";
-JAVACLASS = ".class";
 
 inFile = args[0];
 
@@ -14,10 +13,6 @@ if (inFile.endsWith(GROOVY)) {
   runSuffix = GROOVY;
   srcSuffix = runSuffix;
   ending = "in"
-} else if (inFile.endsWith(JAVACLASS)) {
-  runSuffix = JAVACLASS;
-  srcSuffix = ".java";
-  ending = "p"
 } else {
   println "Unsupported processing of ${inFile}"
   System.exit(-1);
@@ -31,6 +26,7 @@ srcFile = runClass + srcSuffix
 
 // create Markdown files
 md = new StringBuffer();
+bacting = new StringBuffer();
 
 // read the input
 reader = new BufferedReader(
@@ -42,6 +38,8 @@ while (line != null) {
     if (line.charAt(0) == '#') {
     } else if (line.charAt(0) == '%') {
       md.append(line.substring(1)+"\n");
+    } else if (line.charAt(0) == '~') {
+      bacting.append(line.substring(1)+"\n");
     } else {
       md.append(line+"\n");
     }
@@ -77,6 +75,9 @@ for (int type=0; type<mdTypes.size(); type++) {
       } else if (line.contains("%SOURCECODE%")) {
         def srcLines = new File(srcFile).readLines()
         srcLines.each { String srcLine -> mdWriter.write(srcLine + "\n") }
+      } else if (line.contains("%BACTING%")) {
+        line = line.replace("%BACTING%", bacting.toString());
+        mdWriter.write(line);
       } else if (line.contains("%OUT%")) {
         def srcLines = new File(runClass + ".out").readLines()
         srcLines.each { String srcLine -> mdWriter.write(srcLine + "\n") }
