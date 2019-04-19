@@ -70,10 +70,8 @@ chemspider.substructureSearch(
 ## The `opentox` manager
 
 OpenTox is a platform for toxicology, allowing for sharing of
-data as well as creating and running computational
-models (doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7)). 
-The opentox manager integrates much of its
-functionality (doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487)).
+data as well as creating and running computational models [<a href="#citeref1">1</a>].
+The opentox manager integrates much of its functionality [<a href="#citeref2">2</a>].
 
 There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
@@ -88,9 +86,9 @@ models = opentox.listModels(registry);
 
 Similarly, using a particular OpenTox service, e.g. an
 `ambit` instance at
-http://apps.ideaconsult.net:8080/ambit2/ (doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18)), we
+http://apps.ideaconsult.net:8080/ambit2/, we
 can list data sets and features
-(properties):
+(properties) [<a href="#citeref3">3</a>]:
 
 ```js
 service = "http://apps.ideaconsult.net:8080/ambit2/";
@@ -99,7 +97,7 @@ features = opentox.listFeatures(service);
 ```
 
 Instead of listing, we can also search for various types, such as the ToxTree
-models (doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871)):
+models [<a href="#citeref4">4</a>]:
 
 ```js
 models = opentox.searchModels(registry, "ToxTree");
@@ -138,3 +136,12 @@ And we can search compounds based on a label:
 ```js
 pubchem.search("tamoxifen")
 ```
+
+## References
+
+1. <a name="citeref1"></a>Hardy B, Hardy B, Douglas N, Helma C, Rautenberg M, Jeliazkova N, et al. Collaborative development of predictive toxicology applications. Journal of Cheminformatics. 2010 Aug 31;2(1):7.  doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7)
+2. <a name="citeref2"></a>Willighagen E, Jeliazkova N, Hardy B, Grafström R, Spjuth O. Computational toxicology using the OpenTox application programming interface and Bioclipse. BMC Research Notes. 2011 Jan 1;4(1):487.  doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487)
+3. <a name="citeref3"></a>Jeliazkova N, Jeliazkov V. AMBIT RESTful web services: an implementation of the OpenTox application programming interface. Journal of Cheminformatics. 2011 May 16;3(1):18.  doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18)
+4. <a name="citeref4"></a>Patlewicz G, Jeliazkova N, Safford RJ, Worth AP, Aleksiev B. An evaluation of the implementation of the Cramer classification scheme in the Toxtree software. SAR and QSAR in Environmental Research. 2008 Jan 1;19(5–6):495–524.  doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871)
+
+

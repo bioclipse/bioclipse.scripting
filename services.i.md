@@ -70,10 +70,8 @@ chemspider.substructureSearch(
 ## The `opentox` manager
 
 OpenTox is a platform for toxicology, allowing for sharing of
-data as well as creating and running computational
-models (doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7)). 
-The opentox manager integrates much of its
-functionality (doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487)).
+data as well as creating and running computational models [<cite>Q27162585</cite>].
+The opentox manager integrates much of its functionality [<cite>Q27134787</cite>].
 
 There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
@@ -88,9 +86,9 @@ models = opentox.listModels(registry);
 
 Similarly, using a particular OpenTox service, e.g. an
 `ambit` instance at
-http://apps.ideaconsult.net:8080/ambit2/ (doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18)), we
+http://apps.ideaconsult.net:8080/ambit2/, we
 can list data sets and features
-(properties):
+(properties) [<cite>Q27921856</cite>]:
 
 ```js
 service = "http://apps.ideaconsult.net:8080/ambit2/";
@@ -99,7 +97,7 @@ features = opentox.listFeatures(service);
 ```
 
 Instead of listing, we can also search for various types, such as the ToxTree
-models (doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871)):
+models [<cite>Q52227990</cite>]:
 
 ```js
 models = opentox.searchModels(registry, "ToxTree");
@@ -138,3 +136,8 @@ And we can search compounds based on a label:
 ```js
 pubchem.search("tamoxifen")
 ```
+
+## References
+
+<references/>
+
