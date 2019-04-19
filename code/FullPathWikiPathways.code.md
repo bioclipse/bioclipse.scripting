@@ -1,6 +1,9 @@
 # FullPathWikiPathways.groovy
 To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
+The Bioclipse workspace used can be found
+[on GitHub](https://github.com/bioclipse/bioclipse.scripting/tree/master/ws/).
+<br />
 **Source code:**
 ```groovy
 @Grab(group='net.bioclipse.managers', module='bioclipse-ui', version='0.0.3-SNAPSHOT')
