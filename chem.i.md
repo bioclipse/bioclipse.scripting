@@ -103,8 +103,7 @@ cdx.perceiveCDKAtomTypes(mol)
 ## The `inchi` manager
 
 The `inchi` manager makes functionality from the InChI
-standard available (doi:[0.1186/1758-2946-5-7](https://doi.org/0.1186/1758-2946-5-7),
-doi:[10.1186/1758-2946-5-14](https://doi.org/10.1186/1758-2946-5-14)).
+standard available [<cite>Q21030547</cite>,<cite>Q21092920</cite>].
 The InChI library is not available as a Java library, but is included as a
 binary for a selection of platforms and operating systems. This means that we
 cannot assume the InChI functionality is always available in Bioclipse.
@@ -134,7 +133,7 @@ InChIKey = anInChI.getKey()
 ## The `opsin` manager
 
 The `opsin` manager makes functionality from the OPSIN
-available (doi:[10.1021/CI100384D](https://doi.org/10.1021/CI100384D)): convert IUPAC names to chemical
+available [<cite>Q26481104</cite>]: convert IUPAC names to chemical
 structures.
 
 ```js
