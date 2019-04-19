@@ -1,5 +1,5 @@
-SOURCES := core.i.md
-TARGETS := core.md
+SOURCES := core.i.md chem.i.md
+TARGETS := core.md chem.md
 
 all: ${TARGETS}
 
