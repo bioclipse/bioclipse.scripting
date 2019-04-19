@@ -18,7 +18,8 @@ But let's go to the more interesting functionality around chemical graphs. For
 example, let's see how we can create molecular structures from a SMILES
 string:
 
-```js
+**Script** [code/FromSMILES.groovy](code/FromSMILES.code.md)
+```groovy
 mol = cdk.fromSMILES("COC")
 ```
 

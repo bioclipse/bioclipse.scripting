@@ -1,0 +1,7 @@
+~@Grab(group='net.bioclipse.managers', module='bioclipse-cdk', version='0.0.3-SNAPSHOT')
+~
+~workspaceRoot = "../ws"
+~cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
+~
+mol = cdk.fromSMILES("COC")
+# println mol

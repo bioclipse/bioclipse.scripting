@@ -18,9 +18,7 @@ But let's go to the more interesting functionality around chemical graphs. For
 example, let's see how we can create molecular structures from a SMILES
 string:
 
-```js
-mol = cdk.fromSMILES("COC")
-```
+<code>FromSMILES</code>
 
 Normally, structure diagrams are generated without explicit hydrogens. But we
 can easily add them:
