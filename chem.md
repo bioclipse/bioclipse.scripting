@@ -3,8 +3,8 @@
 ## The `cdk` manager
 
 Basic cheminformatics in Bioclipse is mainly handled by the Chemistry
-Development Kit (CDK, <cite>Q27061829</cite>, <cite>Q27065423</cite>,
-<cite>Q30149558</cite> and for this there is the `cdk` manager.
+Development Kit (CDK, <a href="#citeref1">1</a>, <a href="#citeref2">2</a>,
+<a href="#citeref3">3</a> and for this there is the `cdk` manager.
 
 The cdk manager is one with many features. One is to validate
 CAS registry numbers, identifiers used by the Chemical Abstract
@@ -148,5 +148,8 @@ mol = opsin.parseIUPACName(
 
 ## References
 
-<references/>
+1. <a name="citeref1"></a>Steinbeck C, Han Y, Kuhn S, Horlacher O, Luttmann E, Luttmann E, et al. The Chemistry Development Kit (CDK): an open-source Java library for Chemo- and Bioinformatics. Journal of Chemical Information and Modeling. 2003 Feb 11;43(2):493–500.  doi:[10.1021/CI025584Y](https://doi.org/10.1021/CI025584Y)
+2. <a name="citeref2"></a>Steinbeck C, Hoppe C, Hoppe C, Kuhn S, Floris M, Guha R, et al. Recent Developments of the Chemistry Development Kit (CDK) - An Open-Source Java Library for Chemo- and Bioinformatics. Current Pharmaceutical Design [Internet]. 2006 Jun 1;12(17):2111–20. Available from: https://cdk.github.io/cdk-paper-2/ doi:[10.2174/138161206777585274](https://doi.org/10.2174/138161206777585274)
+3. <a name="citeref3"></a>Willighagen E, Mayfield JW, Alvarsson J, Berg A, Berg A, Carlsson L, et al. The Chemistry Development Kit (CDK) v2.0: atom typing, depiction, molecular formulas, and substructure searching. Journal of Cheminformatics. 2017 Jun 6;9(1).  doi:[10.1186/S13321-017-0220-4](https://doi.org/10.1186/S13321-017-0220-4)
+
 
