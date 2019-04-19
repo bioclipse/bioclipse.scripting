@@ -3,8 +3,8 @@
 ## The `cdk` manager
 
 Basic cheminformatics in Bioclipse is mainly handled by the Chemistry
-Development Kit (CDK, <a href="#citeref1">1</a>, <a href="#citeref2">2</a>,
-<a href="#citeref3">3</a> and for this there is the `cdk` manager.
+Development Kit (CDK, [<a href="#citeref1">1</a>,<a href="#citeref2">2</a>,<a href="#citeref3">3</a>])
+and for this there is the `cdk` manager.
 
 The cdk manager is one with many features. One is to validate
 CAS registry numbers, identifiers used by the Chemical Abstract
