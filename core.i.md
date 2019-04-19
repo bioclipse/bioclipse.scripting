@@ -26,12 +26,7 @@ This full path I can then use with, for example, the Java
 `File` class from JavaScript and Groovy. For example,
 I am using Groovy in this set up:
 
-```groovy
-dataMap = bioclipse.fullPath(
-  "/WikiPathways/data/" + species + "/"
-);
-gpmlFiles = new File(dataMap).listFiles()
-```
+<code>FullPathWikiPathways</code>
 
 ### Runtime environment
 
