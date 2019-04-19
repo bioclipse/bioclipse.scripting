@@ -1,5 +1,7 @@
-SOURCES := core.i.md chem.i.md intro.i.md
-TARGETS := core.md chem.md intro.md
+SOURCES := core.i.md chem.i.md intro.i.md bio.i.md \
+  semweb.i.md services.i.md
+TARGETS := core.md chem.md intro.md bio.md semweb.md \
+  services.md
 
 all: ${TARGETS}
 
