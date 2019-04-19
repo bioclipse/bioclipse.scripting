@@ -67,62 +67,6 @@ chemspider.substructureSearch(
 )
 ```
 
-## The openphacts manager
-
-Open PHACTS is a semantic web-based knowledge platform under development to support
-drug discovery (doi:[10.1016/J.DRUDIS.2012.05.016](https://doi.org/10.1016/J.DRUDIS.2012.05.016)). It provides a
-REST-like interface of which some of the methods are exposed by the openphacts
-managers. Because it is a semantic web platform, compounds, diseases, proteins,
-and pathways are all identified with URIs. Practically, however, we start with
-a name, but usign the Open PHACTS `identity resolution service` (IRS) we can
-convert names into URIs:
-
-```js
-cwHits = openphacts.lookUpCompounds("aspirin")
-```
-
-From the list, we can get a URI with:
-
-```
-compoundURI = cwHits.get(0).getURI()
-```
-
-Another approach to look up a URI for a compound and, as such, find the
-compound in the knowledge base, is to start with an `IMolecule`:
-
-```js
-compoundURI = openphacts.getURI(
-  cdk.fromSMILES("CC(=O)OC1=CC=CC=C1C(=O)O")
-)
-```
-
-If you want to look up information about the search hits, you do:
-
-```js
-hitsInfo = openphacts.getCompoundsInfo(cwHits)
-```
-
-Future versions of the manager will likely provide alternative APIs to get
-compound information.
-
-Similar compounds can be looked up using the Tanimoto distance measure, and a
-similarity cut off of 0.8 by default:
-
-```js
-similarCompounds = openphacts.findSimilar(
-  cdk.fromSMILES("CC(=O)OC1=CC=CC=C1C(=O)O")
-)
-```
-
-If you find that list too long, you can increase the minimal similarity to, for
-example, 0.95:
-
-```
-similarCompounds = openphacts.findSimilar(
-  cdk.fromSMILES("CC(=O)OC1=CC=CC=C1C(=O)O"), 0.95
-)
-```
-
 ## The `opentox` manager
 
 OpenTox is a platform for toxicology, allowing for sharing of
