@@ -27,6 +27,7 @@ srcFile = runClass + srcSuffix
 // create Markdown files
 md = new StringBuffer();
 bacting = new StringBuffer();
+source = new StringBuffer();
 
 // read the input
 reader = new BufferedReader(
@@ -36,12 +37,15 @@ line = reader.readLine();
 while (line != null) {
   if (line.trim().length() > 0) {
     if (line.charAt(0) == '#') {
+      source.append(line.substring(1)+"\n");
     } else if (line.charAt(0) == '%') {
       md.append(line.substring(1)+"\n");
+      source.append(line.substring(1)+"\n");
     } else if (line.charAt(0) == '~') {
       bacting.append(line.substring(1)+"\n");
     } else {
       md.append(line+"\n");
+      source.append(line+"\n");
     }
   }  
   line = reader.readLine();
@@ -73,8 +77,8 @@ for (int type=0; type<mdTypes.size(); type++) {
         line = line.replace("%SYNTAX%", srcExt);
         mdWriter.write(line + "\n");
       } else if (line.contains("%SOURCECODE%")) {
-        def srcLines = new File(srcFile).readLines()
-        srcLines.each { String srcLine -> mdWriter.write(srcLine + "\n") }
+        line = line.replace("%SOURCECODE%", source.toString());
+        mdWriter.write(line);
       } else if (line.contains("%BACTING%")) {
         line = line.replace("%BACTING%", bacting.toString());
         mdWriter.write(line);

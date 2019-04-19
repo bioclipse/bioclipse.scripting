@@ -2,11 +2,6 @@
 ## Source code
 ### Bioclipse 2.6
 ```groovy
-@Grab(group='net.bioclipse.managers', module='bioclipse-ui', version='0.0.3-SNAPSHOT')
-
-workspaceRoot = "../ws"
-bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
-
 species = "human"
 dataMap = bioclipse.fullPath(
   "/WikiPathways/data/" + species + "/"
@@ -21,10 +16,6 @@ The Bioclipse workspace used can be found
 [on GitHub](https://github.com/bioclipse/bioclipse.scripting/tree/master/ws/).
 <br />
 ```groovy
-@Grab(group='net.bioclipse.managers', module='bioclipse-ui', version='0.0.3-SNAPSHOT')
-
-workspaceRoot = "../ws"
-bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
 @Grab(group='net.bioclipse.managers', module='bioclipse-ui', version='0.0.3-SNAPSHOT')
 
 workspaceRoot = "../ws"

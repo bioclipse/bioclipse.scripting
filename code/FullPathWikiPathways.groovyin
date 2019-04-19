@@ -2,7 +2,7 @@
 ~
 ~workspaceRoot = "../ws"
 ~bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
-#
+~
 #species = "human"
 dataMap = bioclipse.fullPath(
   "/WikiPathways/data/" + species + "/"
