@@ -1,4 +1,4 @@
-~@Grab(group='net.bioclipse.managers', module='bioclipse-opsin', version='0.0.3-SNAPSHOT')
+~@Grab(group='net.bioclipse.bacting', module='managers-opsin', version='0.0.3-SNAPSHOT')
 ~
 ~workspaceRoot = "../ws"
 ~opsin = new net.bioclipse.managers.OpsinManager(workspaceRoot);
