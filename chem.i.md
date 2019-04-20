@@ -134,14 +134,7 @@ The `opsin` manager makes functionality from the OPSIN
 available [<cite>Q26481104</cite>]: convert IUPAC names to chemical
 structures.
 
-```js
-mol = opsin.parseIUPACName(
-  "Ethyl [(1R,3aR,4aR,6R,8aR,9S,9aS)-9-" +
-  "{(E)-2-[5-(3-fluorophenyl)-2-pyridinyl]vinyl}-" +
-  "1-methyl-3-oxododecahydronaphtho[2,3-c]furan-" +
-  "6-yl]carbamate"
-)
-```
+<code>ParseIUPACName</code>
 
 ## References
 

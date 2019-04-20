@@ -137,7 +137,8 @@ The `opsin` manager makes functionality from the OPSIN
 available [<a href="#citeref6">6</a>]: convert IUPAC names to chemical
 structures.
 
-```js
+**Script** [code/ParseIUPACName.groovy](code/ParseIUPACName.code.md)
+```groovy
 mol = opsin.parseIUPACName(
   "Ethyl [(1R,3aR,4aR,6R,8aR,9S,9aS)-9-" +
   "{(E)-2-[5-(3-fluorophenyl)-2-pyridinyl]vinyl}-" +
