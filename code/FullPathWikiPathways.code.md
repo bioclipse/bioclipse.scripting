@@ -17,7 +17,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='net.bioclipse.bacting', module='managers-ui', version='0.0.3-SNAPSHOT')
+@Grab(group='net.bioclipse.bacting', module='managers-ui', version='0.0.3')
 
 workspaceRoot = "../ws"
 bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
