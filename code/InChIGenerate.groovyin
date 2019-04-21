@@ -1,0 +1,11 @@
+~@Grab(group='net.bioclipse.bacting', module='managers-opsin', version='0.0.3')
+~@Grab(group='net.bioclipse.bacting', module='managers-inchi', version='0.0.3')
+~
+~workspaceRoot = "../ws"
+~opsin = new net.bioclipse.managers.OpsinManager(workspaceRoot);
+~inchi = new net.bioclipse.managers.InChIManager(workspaceRoot);
+~
+anInChI = inchi.generate(
+  opsin.parseIUPACName("methane")
+)
+#println anInChI.value
