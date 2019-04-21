@@ -117,10 +117,17 @@ inchi.isLoaded()
 
 But when that has succeeded, we can start minting InChIs:
 
-```js
+**Script** [code/InChIGenerate.groovy](code/InChIGenerate.code.md)
+```groovy
 anInChI = inchi.generate(
   opsin.parseIUPACName("methane")
 )
+```
+
+Which returns:
+
+```plain
+InChI=1S/CH4/h1H4
 ```
 
 The returned value is a class called InChI and we can get both the full InChI

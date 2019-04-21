@@ -114,11 +114,11 @@ inchi.isLoaded()
 
 But when that has succeeded, we can start minting InChIs:
 
-```js
-anInChI = inchi.generate(
-  opsin.parseIUPACName("methane")
-)
-```
+<code>InChIGenerate</code>
+
+Which returns:
+
+<out>InChIGenerate</out>
 
 The returned value is a class called InChI and we can get both the full InChI
 as well as the InChIKey from it:
