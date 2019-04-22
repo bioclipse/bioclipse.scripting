@@ -98,7 +98,7 @@ molecule:
 
 Which lists for ethanol:
 
-<out>PerceiveCDKAtomTypes</code>
+<out>PerceiveCDKAtomTypes</out>
 
 ## The `inchi` manager
 

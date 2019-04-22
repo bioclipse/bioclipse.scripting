@@ -97,8 +97,17 @@ cdx.diff(
 And we can list the exact atom types for the atoms in a
 molecule:
 
-```js
+**Script** [code/PerceiveCDKAtomTypes.groovy](code/PerceiveCDKAtomTypes.code.md)
+```groovy
 cdx.perceiveCDKAtomTypes(mol)
+```
+
+Which lists for ethanol:
+
+```plain
+1:C.sp3
+2:C.sp3
+3:O.sp3
 ```
 
 ## The `inchi` manager
