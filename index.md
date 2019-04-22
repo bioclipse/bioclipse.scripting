@@ -35,6 +35,5 @@ license.
 * [Online Service Providers](services.md)
   * [The `biows` manager](services.md#the-biows-manager)
   * [The `chemspider` manager](services.md#the-chemspider-manager)
-  * [The `openphacts` manager](services.md#the-openphacts-manager)
   * [The `opentox` manager](services.md#the-opentox-manager)
   * [The `pubchem` manager](services.md#the-pubchem-manager)
