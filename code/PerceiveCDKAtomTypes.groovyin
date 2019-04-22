@@ -1,0 +1,10 @@
+~@Grab(group='net.bioclipse.bacting', module='managers-cdk', version='0.0.3')
+~@Grab(group='net.bioclipse.bacting', module='managers-cdkdebug', version='0.0.3')
+~
+~workspaceRoot = "../ws"
+~cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
+~cdx = new net.bioclipse.managers.cdkdebug.CDKDebugManager(workspaceRoot);
+~
+#mol = cdk.fromSMILES("CCO")
+cdx.perceiveCDKAtomTypes(mol)
+#print cdx.perceiveCDKAtomTypes(mol)

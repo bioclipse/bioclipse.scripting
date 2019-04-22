@@ -94,9 +94,11 @@ cdx.diff(
 And we can list the exact atom types for the atoms in a
 molecule:
 
-```js
-cdx.perceiveCDKAtomTypes(mol)
-```
+<code>PerceiveCDKAtomTypes</code>
+
+Which lists for ethanol:
+
+<out>PerceiveCDKAtomTypes</code>
 
 ## The `inchi` manager
 
