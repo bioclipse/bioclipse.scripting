@@ -1,0 +1,6 @@
+~@Grab(group='net.bioclipse.bacting', module='managers-rdf', version='0.0.4-SNAPSHOT')
+~
+~workspaceRoot = "../ws"
+~rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
+~
+base = rdf.createStore("/tmp/chebiowl")

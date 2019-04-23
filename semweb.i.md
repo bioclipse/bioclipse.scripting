@@ -10,14 +10,12 @@ technologies can be used in Bioclipse.
 ## The `rdf` manager
 
 The `rdf` manager can be used to handle Resource Description Framework
-(RDF) data (see doi:[10.1186/1758-2946-3-19](https://doi.org/10.1186/1758-2946-3-19)). The basic unit of
+(RDF) data [<cite>Q24607780</cite>]. The basic unit of
 information in RDF is a triple and these triples are stored in a
 *triple store*. A file based store can be created with this
 code:
 
-```js
-base = rdf.createStore("/tmp/chebiowl")
-```
+<code>CreateStore</code>
 
 Here, the path is a full operating system-style path, and this one works only
 on Unix/Linux/BSD systems.
@@ -178,4 +176,8 @@ for (i=1; i<=mappings.rowCount; i++) {
   }
 }
 ```
+
+## References
+
+<references/>
 

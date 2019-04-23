@@ -10,12 +10,13 @@ technologies can be used in Bioclipse.
 ## The `rdf` manager
 
 The `rdf` manager can be used to handle Resource Description Framework
-(RDF) data (see doi:[10.1186/1758-2946-3-19](https://doi.org/10.1186/1758-2946-3-19)). The basic unit of
+(RDF) data [<a href="#citeref1">1</a>]. The basic unit of
 information in RDF is a triple and these triples are stored in a
 *triple store*. A file based store can be created with this
 code:
 
-```js
+**Script** [code/CreateStore.groovy](code/CreateStore.code.md)
+```groovy
 base = rdf.createStore("/tmp/chebiowl")
 ```
 
@@ -178,4 +179,9 @@ for (i=1; i<=mappings.rowCount; i++) {
   }
 }
 ```
+
+## References
+
+1. <a name="citeref1"></a>Samwald M, Jentzsch A, Bouton C, Kallesøe CS, Willighagen E, Hajagos J, et al. Linked open drug data for pharmaceutical research and development. Journal of Cheminformatics. 2011 Jan 1;3(1):19.  doi:[10.1186/1758-2946-3-19](https://doi.org/10.1186/1758-2946-3-19)
+
 
