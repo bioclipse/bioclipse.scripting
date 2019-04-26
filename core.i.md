@@ -53,16 +53,12 @@ bioclipse.bugTracker()
 
 It can be used to test if there is an Internet connection:
 
-```js
-bioclipse.isOnline()
-```
+<code>IsOnline</code>
 
 But it can also fail if Bioclipse does not have active Internet
 access:
 
-```js
-bioclipse.assumeOnline()
-```
+<code>AssumeOnline</code>
 
 The manager can be used to validate some of these assumptions. For example, it
 can be used to test which Bioclipse version we are running, or make an

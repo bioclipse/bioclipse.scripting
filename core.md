@@ -59,14 +59,16 @@ bioclipse.bugTracker()
 
 It can be used to test if there is an Internet connection:
 
-```js
+**Script** [code/IsOnline.groovy](code/IsOnline.code.md)
+```groovy
 bioclipse.isOnline()
 ```
 
 But it can also fail if Bioclipse does not have active Internet
 access:
 
-```js
+**Script** [code/AssumeOnline.groovy](code/AssumeOnline.code.md)
+```groovy
 bioclipse.assumeOnline()
 ```
 
