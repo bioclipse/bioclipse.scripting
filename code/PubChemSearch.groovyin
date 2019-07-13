@@ -1,0 +1,7 @@
+~@Grab(group='io.github.egonw.bacting', module='managers-pubchem', version='0.0.5')
+~
+~workspaceRoot = "../ws"
+~pubchem = new net.bioclipse.managers.PubChemManager(workspaceRoot);
+~
+pubchem.search("tamoxifen")
+#println pubchem.search("tamoxifen")

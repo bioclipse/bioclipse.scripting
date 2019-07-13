@@ -131,9 +131,7 @@ pubchem.download3d(2244)
 
 And we can search compounds based on a label:
 
-```js
-pubchem.search("tamoxifen")
-```
+<code>PubChemSearch</code>
 
 ## References
 

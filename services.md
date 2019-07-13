@@ -22,7 +22,7 @@ And also RefSeq:
 biows.queryRefseq("NM_000059")
 ```
 
-## The `chemspider` manager
+q## The `chemspider` manager
 
 The `chemspider` manager makes functionality avaiable to interact with the
 ChemSpider database. For example, we can download a structure
@@ -35,7 +35,8 @@ chemspider.download(9606)
 You can also use ChemSpider to resolve InChIKeys to entries in the
 database:
 
-```js
+**Script** [code/ChemSpiderResolve.groovy](code/ChemSpiderResolve.code.md)
+```groovy
 chemspider.resolve("RCINICONZNJXQF-MZXODVADSA-N")
 ```
 
@@ -133,7 +134,8 @@ pubchem.download3d(2244)
 
 And we can search compounds based on a label:
 
-```js
+**Script** [code/PubChemSearch.groovy](code/PubChemSearch.code.md)
+```groovy
 pubchem.search("tamoxifen")
 ```
 
