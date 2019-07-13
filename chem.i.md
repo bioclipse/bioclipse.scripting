@@ -109,10 +109,7 @@ binary for a selection of platforms and operating systems. This means that we
 cannot assume the InChI functionality is always available in Bioclipse.
 Furthermore, we need to load the library:
 
-```js
-inchi.load()
-inchi.isLoaded()
-```
+<code>LoadInChI</code>
 
 But when that has succeeded, we can start minting InChIs:
 
@@ -125,10 +122,7 @@ Which returns:
 The returned value is a class called InChI and we can get both the full InChI
 as well as the InChIKey from it:
 
-```js
-fullInChI = anInChI.getValue()
-InChIKey = anInChI.getKey()
-```
+<code>InChIKeyGenerate</code>
 
 ## The `opsin` manager
 
