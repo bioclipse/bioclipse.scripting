@@ -22,7 +22,7 @@ And also RefSeq:
 biows.queryRefseq("NM_000059")
 ```
 
-## The `chemspider` manager
+q## The `chemspider` manager
 
 The `chemspider` manager makes functionality avaiable to interact with the
 ChemSpider database. For example, we can download a structure
@@ -35,9 +35,7 @@ chemspider.download(9606)
 You can also use ChemSpider to resolve InChIKeys to entries in the
 database:
 
-```js
-chemspider.resolve("RCINICONZNJXQF-MZXODVADSA-N")
-```
+<code>ChemSpiderResolve</code>
 
 Some methods require a security token that can be set via the preferences (see
 http://www.chemspider.com/AboutServices.aspx). But when that is done, we
