@@ -6,22 +6,22 @@ Bioclipse workspace used can be found
 ### Bioclipse 2.6
 ```groovy
 bioclipse.assumeOnline()
-println bioclipse.assumeOnline()
+println "Online? " + bioclipse.assumeOnline()
 ```
 ### Bacting
 To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='net.bioclipse.bacting', module='managers-ui', version='0.0.3')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.5')
 
 workspaceRoot = "../ws"
 bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
 
 bioclipse.assumeOnline()
-println bioclipse.assumeOnline()
+println "Online? " + bioclipse.assumeOnline()
 ```
 ## Output
 ```plain
-null
+Online? null
 ```

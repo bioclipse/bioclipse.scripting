@@ -18,7 +18,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='net.bioclipse.bacting', module='managers-opsin', version='0.0.3')
+@Grab(group='io.github.egonw.bacting', module='managers-opsin', version='0.0.5')
 
 workspaceRoot = "../ws"
 opsin = new net.bioclipse.managers.OpsinManager(workspaceRoot);
