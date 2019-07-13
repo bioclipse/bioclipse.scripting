@@ -22,7 +22,7 @@ And also RefSeq:
 biows.queryRefseq("NM_000059")
 ```
 
-q## The `chemspider` manager
+## The `chemspider` manager
 
 The `chemspider` manager makes functionality avaiable to interact with the
 ChemSpider database. For example, we can download a structure
