@@ -76,10 +76,11 @@ The opentox manager integrates much of its functionality [<a href="#citeref2">2<
 
 There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
-http://apps.ideaconsult.net:8080/ontology/:
+[http://apps.ideaconsult.net/ontology/](http://apps.ideaconsult.net/ontology/):
 
-```js
-registry = "http://apps.ideaconsult.net:8080/ontology";
+**Script** [code/OpenToxLists.groovy](code/OpenToxLists.code.md)
+```groovy
+registry = "https://apps.ideaconsult.net/ontology";
 algorithms = opentox.listAlgorithms(registry);
 descriptors = opentox.listDescriptors(registry);
 models = opentox.listModels(registry);
@@ -87,12 +88,12 @@ models = opentox.listModels(registry);
 
 Similarly, using a particular OpenTox service, e.g. an
 `ambit` instance at
-http://apps.ideaconsult.net:8080/ambit2/, we
-can list data sets and features
+[http://apps.ideaconsult.net/ambit2/](http://apps.ideaconsult.net/ambit2/),
+we can list data sets and features
 (properties) [<a href="#citeref3">3</a>]:
 
 ```js
-service = "http://apps.ideaconsult.net:8080/ambit2/";
+service = "http://apps.ideaconsult.net/ambit2/";
 dataSets = opentox.listDataSets(service);
 features = opentox.listFeatures(service);
 ```
