@@ -9,3 +9,11 @@ Copyright (C) 2014-2019 The Authors
 This work is made available under the
 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 license.
+
+## Requirements
+
+[Citation.js](https://github.com/citation-js) can be installed with:
+
+```shell
+npm install citation-js
+```
