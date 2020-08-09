@@ -162,6 +162,6 @@ Furthermore, a further set of more general objects are defined:
 
 ## References
 
-1. <a name="citeref1"></a>Spjuth O, Alvarsson J, Berg A, Eklund M, Kuhn S, Mäsak C, et al. Bioclipse 2: a scriptable integration platform for the life sciences. BMC Bioinf [Internet]. 2009;10(1):397. Available from: http://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-397 doi:[10.1186/1471-2105-10-397](https://doi.org/10.1186/1471-2105-10-397)
+1. <a name="citeref1"></a>Spjuth O, Alvarsson J, Berg A, Eklund M, Kuhn S, Mäsak C, et al. Bioclipse 2: a scriptable integration platform for the life sciences. BMC Bioinf [Internet]. 2009;10(1):397. Available from: http://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-397 doi:[10.1186/1471-2105-10-397](https://doi.org/10.1186/1471-2105-10-397) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1471-2105-10-397))
 
 

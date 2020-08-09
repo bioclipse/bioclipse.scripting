@@ -13,7 +13,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-pubchem', version='0.0.5')
+@Grab(group='io.github.egonw.bacting', module='managers-pubchem', version='0.0.13')
 
 workspaceRoot = "../ws"
 pubchem = new net.bioclipse.managers.PubChemManager(workspaceRoot);
@@ -23,14 +23,6 @@ println pubchem.search("tamoxifen")
 ```
 ## Output
 ```plain
-URL: https://eutils.ncbi.nlm.nih.gov/entrez/euti...
-  ls/esearch.fcgi?db=pccompound&retmax=50&usehis...
-  tory=y&tool=bioclipse.net&term=tamoxifen
-[nu.xom.Element: Count]
-URL: https://eutils.ncbi.nlm.nih.gov/entrez/euti...
-  ls/esearch.fcgi?db=pccompound&retmax=50&usehis...
-  tory=y&tool=bioclipse.net&term=tamoxifen
-[nu.xom.Element: Count]
 [139595647, 134695255, 133611905, 131769958, 131...
   721936, 131698991, 131668254, 131667541, 12988...
   7979, 129866133, 129866131, 129850406, 1298501...

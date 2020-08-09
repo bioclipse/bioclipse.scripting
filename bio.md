@@ -66,8 +66,8 @@ mappings = bridgedb.map(mbMapper, casXref)
 
 ## References
 
-1. <a name="citeref1"></a>Holland RCG, Down TA, Pocock M, Prlić A, Huen D, James K, et al. BioJava: an open-source framework for bioinformatics. Bioinformatics. 2008 Sep 15;24(18):2096–7.  doi:[10.1093/BIOINFORMATICS/BTN397](https://doi.org/10.1093/BIOINFORMATICS/BTN397)
-2. <a name="citeref2"></a>Prlić A, Yates A, Bliven SE, Rose PW, Jacobsen J, Troshin PV, et al. BioJava: an open-source framework for bioinformatics in 2012. Bioinformatics. 2012 Oct 15;28(20):2693–5.  doi:[10.1093/BIOINFORMATICS/BTS494](https://doi.org/10.1093/BIOINFORMATICS/BTS494)
-3. <a name="citeref3"></a>van Iersel MP, Pico AR, Kelder T, Gao J, Ho I, Hanspers K, et al. The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMC Bioinf. 2010 Jan 4;11(1):5.  doi:[10.1186/1471-2105-11-5](https://doi.org/10.1186/1471-2105-11-5)
+1. <a name="citeref1"></a>Holland RCG, Down TA, Pocock M, Prlić A, Huen D, James K, et al. BioJava: an open-source framework for bioinformatics. Bioinformatics. 2008 Sep 15;24(18):2096–7.  doi:[10.1093/BIOINFORMATICS/BTN397](https://doi.org/10.1093/BIOINFORMATICS/BTN397) ([Scholia](https://scholia.toolforge.org/doi/10.1093/BIOINFORMATICS/BTN397))
+2. <a name="citeref2"></a>Prlić A, Yates A, Bliven SE, Rose PW, Jacobsen J, Troshin PV, et al. BioJava: an open-source framework for bioinformatics in 2012. Bioinformatics. 2012 Oct 15;28(20):2693–5.  doi:[10.1093/BIOINFORMATICS/BTS494](https://doi.org/10.1093/BIOINFORMATICS/BTS494) ([Scholia](https://scholia.toolforge.org/doi/10.1093/BIOINFORMATICS/BTS494))
+3. <a name="citeref3"></a>van Iersel MP, Pico AR, Kelder T, Gao J, Ho I, Hanspers K, et al. The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMC Bioinf. 2010 Jan 4;11(1):5.  doi:[10.1186/1471-2105-11-5](https://doi.org/10.1186/1471-2105-11-5) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1471-2105-11-5))
 
 

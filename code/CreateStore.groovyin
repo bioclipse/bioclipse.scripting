@@ -1,4 +1,4 @@
-~@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.5')
+~@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.13')
 ~
 ~workspaceRoot = "../ws"
 ~rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);

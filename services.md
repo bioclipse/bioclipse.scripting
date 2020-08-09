@@ -142,9 +142,9 @@ pubchem.search("tamoxifen")
 
 ## References
 
-1. <a name="citeref1"></a>Hardy B, Douglas N, Helma C, Rautenberg M, Jeliazkova N, Jeliazkov V, et al. Collaborative development of predictive toxicology applications. J Cheminform. 2010 Aug 31;2(1):7.  doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7)
-2. <a name="citeref2"></a>Willighagen E, Jeliazkova N, Hardy B, Grafström R, Spjuth O. Computational toxicology using the OpenTox application programming interface and Bioclipse. BMC Research Notes. 2011;4(1):487.  doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487)
-3. <a name="citeref3"></a>Jeliazkova N, Jeliazkov V. AMBIT RESTful web services: an implementation of the OpenTox application programming interface. J Cheminform. 2011 May 16;3(1):18.  doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18)
-4. <a name="citeref4"></a>Patlewicz G, Jeliazkova N, Safford RJ, Worth A, Aleksiev B. An evaluation of the implementation of the Cramer classification scheme in the Toxtree software. SAR and QSAR in Environmental Research. 2008 Jan 1;19(5–6):495–524.  doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871)
+1. <a name="citeref1"></a>Hardy B, Douglas N, Helma C, Rautenberg M, Jeliazkova N, Jeliazkov V, et al. Collaborative development of predictive toxicology applications. J Cheminform. 2010 Aug 31;2(1):7.  doi:[10.1186/1758-2946-2-7](https://doi.org/10.1186/1758-2946-2-7) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1758-2946-2-7))
+2. <a name="citeref2"></a>Willighagen E, Jeliazkova N, Hardy B, Grafström R, Spjuth O. Computational toxicology using the OpenTox application programming interface and Bioclipse. BMC Research Notes. 2011;4(1):487.  doi:[10.1186/1756-0500-4-487](https://doi.org/10.1186/1756-0500-4-487) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1756-0500-4-487))
+3. <a name="citeref3"></a>Jeliazkova N, Jeliazkov V. AMBIT RESTful web services: an implementation of the OpenTox application programming interface. J Cheminform. 2011 May 16;3(1):18.  doi:[10.1186/1758-2946-3-18](https://doi.org/10.1186/1758-2946-3-18) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1758-2946-3-18))
+4. <a name="citeref4"></a>Patlewicz G, Jeliazkova N, Safford RJ, Worth A, Aleksiev B. An evaluation of the implementation of the Cramer classification scheme in the Toxtree software. SAR and QSAR in Environmental Research. 2008 Jan 1;19(5–6):495–524.  doi:[10.1080/10629360802083871](https://doi.org/10.1080/10629360802083871) ([Scholia](https://scholia.toolforge.org/doi/10.1080/10629360802083871))
 
 
