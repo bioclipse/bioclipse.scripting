@@ -157,20 +157,23 @@ ui.revealAndSelect("/eNanoMapper/affinity.ttl")
 There is also an `xml` manager to work with XML files. For example, we can test if the
 file is well-formed:
 
-```js
-xml.isWellFormed("/Google/solubility.rdf")
+**Script** [code/XMLIsWellFormed.groovy](code/XMLIsWellFormed.code.md)
+```groovy
+wellformed = xml.isWellFormed("/Google/solubility.rdf")
 ```
 
 And list all the XML namespaces in that file:
 
-```js
-xml.listNamespaces("/Google/solubility.rdf")
+**Script** [code/XMLListNamespaces.groovy](code/XMLListNamespaces.code.md)
+```groovy
+wellformed = xml.listNamespaces("/Google/solubility.rdf")
 ```
 
 Validation is also possible, using the information in the XML file itself:
 
-```js
-xml.validate("/Google/solubility.rdf")
+**Script** [code/XMLIsValid.groovy](code/XMLIsValid.code.md)
+```groovy
+valid = xml.isValid("/Google/solubility.rdf")
 ```
 
 This has the disadvantages that this information must be provided and that you likely

@@ -13,7 +13,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-chemspider', version='0.0.6-SNAPSHOT')
+@Grab(group='io.github.egonw.bacting', module='managers-chemspider', version='0.0.12')
 
 workspaceRoot = "../ws"
 chemspider = new net.bioclipse.managers.ChemspiderManager(workspaceRoot);
