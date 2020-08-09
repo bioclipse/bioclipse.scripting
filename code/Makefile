@@ -19,7 +19,7 @@ allScriptsCompiled: ${CODEFILES}
 	@groovy preprocess $<
 
 %.out: %.groovy md.*.template
-	@echo "doing $@..."
+	@echo "doing $@ ..."
 	@groovy -d $< | groovy ../wrap.groovy > $@
 	@if [ -e *.png ]; then mogrify -trim *.png ; fi
 	@if [ -e *.png ]; then mv *.png ../images/generated/. ; fi
