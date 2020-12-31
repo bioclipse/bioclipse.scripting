@@ -31,6 +31,6 @@ println dna
 ```
 ## Output
 ```plain
-DNA seq1609402961444: 'gcat'
+DNA seq1609403292349: 'gcat'
 DNA dummy sequence: 'gcat'
 ```

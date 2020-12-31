@@ -28,7 +28,8 @@ The `chemspider` manager makes functionality avaiable to interact with the
 ChemSpider database. For example, we can download a structure
 with a chemspider identifier number:
 
-```js
+**Script** [code/ChemSpiderDownload.groovy](code/ChemSpiderDownload.code.md)
+```groovy
 chemspider.download(9606)
 ```
 
@@ -78,8 +79,7 @@ There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
 [http://apps.ideaconsult.net/ontology/](http://apps.ideaconsult.net/ontology/):
 
-**Script** [code/OpenToxLists.groovy](code/OpenToxLists.code.md)
-```groovy
+```js
 registry = "https://apps.ideaconsult.net/ontology";
 algorithms = opentox.listAlgorithms(registry);
 descriptors = opentox.listDescriptors(registry);

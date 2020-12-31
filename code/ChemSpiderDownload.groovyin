@@ -1,0 +1,7 @@
+~@Grab(group='io.github.egonw.bacting', module='managers-chemspider', version='0.0.15')
+~
+~workspaceRoot = "../ws"
+~chemspider = new net.bioclipse.managers.ChemspiderManager(workspaceRoot);
+~
+chemspider.download(9606)
+#println chemspider.download(9606)

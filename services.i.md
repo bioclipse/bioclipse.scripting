@@ -28,9 +28,7 @@ The `chemspider` manager makes functionality avaiable to interact with the
 ChemSpider database. For example, we can download a structure
 with a chemspider identifier number:
 
-```js
-chemspider.download(9606)
-```
+<code>ChemSpiderDownload</code>
 
 You can also use ChemSpider to resolve InChIKeys to entries in the
 database:

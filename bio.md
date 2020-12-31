@@ -14,7 +14,8 @@ dna = biojava.DNAsFromString("> foo\nGCAT")
 Or from just a sequence string, with or without a
 name:
 
-```javascript
+**Script** [code/DNAfromPlainSequence.groovy](code/DNAfromPlainSequence.code.md)
+```groovy
 dna = biojava.DNAfromPlainSequence("GCAT")
 dna = biojava.DNAfromPlainSequence(
   "GCAT", "dummy sequence"
