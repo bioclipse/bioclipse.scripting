@@ -1,0 +1,11 @@
+~@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.0.15')
+~
+~workspaceRoot = "../ws"
+~biojava = new net.bioclipse.managers.BiojavaManager(workspaceRoot);
+~
+dna = biojava.DNAfromPlainSequence("GCAT")
+#println dna
+dna = biojava.DNAfromPlainSequence(
+  "GCAT", "dummy sequence"
+)
+#println dna

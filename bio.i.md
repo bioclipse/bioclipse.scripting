@@ -14,12 +14,7 @@ dna = biojava.DNAsFromString("> foo\nGCAT")
 Or from just a sequence string, with or without a
 name:
 
-```javascript
-dna = biojava.DNAfromPlainSequence("GCAT")
-dna = biojava.DNAfromPlainSequence(
-  "GCAT", "dummy sequence"
-)
-```
+<code>DNAfromPlainSequence</code>
 
 With two additional methods, we now have a pipeline to convert
 `dna` into `rna`, and `rna` into a protein sequence:
