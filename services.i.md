@@ -75,7 +75,12 @@ There are various methods to list what is available. Some information is
 available from a central registration server, e.g.
 [http://apps.ideaconsult.net/ontology/](http://apps.ideaconsult.net/ontology/):
 
-<code>OpenToxLists</code>
+```js
+registry = "https://apps.ideaconsult.net/ontology";
+algorithms = opentox.listAlgorithms(registry);
+descriptors = opentox.listDescriptors(registry);
+models = opentox.listModels(registry);
+```
 
 Similarly, using a particular OpenTox service, e.g. an
 `ambit` instance at
