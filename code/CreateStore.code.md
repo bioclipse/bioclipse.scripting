@@ -12,7 +12,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.15')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.0.18')
 
 workspaceRoot = "../ws"
 rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);

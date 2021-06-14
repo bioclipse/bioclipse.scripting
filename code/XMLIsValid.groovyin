@@ -1,5 +1,5 @@
-~@Grab(group='io.github.egonw.bacting', module='managers-xml', version='0.0.15')
-~@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.15')
+~@Grab(group='io.github.egonw.bacting', module='managers-xml', version='0.0.18')
+~@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.18')
 ~
 ~workspaceRoot = "../ws"
 ~

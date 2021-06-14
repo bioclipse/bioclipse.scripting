@@ -14,8 +14,8 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-cdk', version='0.0.15')
-@Grab(group='io.github.egonw.bacting', module='managers-cdkdebug', version='0.0.15')
+@Grab(group='io.github.egonw.bacting', module='managers-cdk', version='0.0.18')
+@Grab(group='io.github.egonw.bacting', module='managers-cdkdebug', version='0.0.18')
 
 workspaceRoot = "../ws"
 cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
