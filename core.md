@@ -39,8 +39,9 @@ gpmlFiles = new File(dataMap).listFiles()
 Furthermore, the bioclipse manager has functionality to get some information
 about the running Bioclipse. You can get the version with:
 
-```js
-bioclipse.version()
+**Script** [code/BioclipseVersion.groovy](code/BioclipseVersion.code.md)
+```groovy
+println "Bioclipse " + bioclipse.version()
 ```
 
 And get the location of where the log file is found:

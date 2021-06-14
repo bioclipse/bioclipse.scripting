@@ -33,9 +33,7 @@ I am using Groovy in this set up:
 Furthermore, the bioclipse manager has functionality to get some information
 about the running Bioclipse. You can get the version with:
 
-```js
-bioclipse.version()
-```
+<code>BioclipseVersion</code>
 
 And get the location of where the log file is found:
 
