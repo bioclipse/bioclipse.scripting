@@ -13,7 +13,7 @@ references.qids: findCitations.groovy ${SOURCES}
 	@groovy findCitations.groovy . | grep "^Q" | sort | uniq > references.qids
 
 references.dat: references.qids references.js
-	@nodejs references.js
+	@node references.js
 
 %.md : %.i.md createMarkdown.groovy references.dat
 	@echo "Creating $@"
