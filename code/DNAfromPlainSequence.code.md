@@ -17,7 +17,7 @@ To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.0.18')
+@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.0.29')
 
 workspaceRoot = "../ws"
 biojava = new net.bioclipse.managers.BiojavaManager(workspaceRoot);
@@ -31,6 +31,6 @@ println dna
 ```
 ## Output
 ```plain
-DNA seq1623648000401: 'gcat'
+DNA seq1641069601689: 'gcat'
 DNA dummy sequence: 'gcat'
 ```
