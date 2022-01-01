@@ -28,7 +28,8 @@ Windows~8 you need to go to `System and Security` and
 then `view basic information about your computer`.  Normally, the installation program should be
 the obvious choice but if, for whatever reason, that does not work you can use
 the zip file. The Linux version is packaged as a tar.gz file and the Mac
-version comes as a .dmg file. These packages are available from https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.1/ .
+version comes as a .dmg file. These packages are available from
+[https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.2/](https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.2/).
 
 ### Installing
 The installation procedure differs between the operating systems. Bioclipse
