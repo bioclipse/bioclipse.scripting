@@ -15,7 +15,8 @@ how to get Bioclipse running!
 This section gives a short introduction for how to get started with Bioclipse
 and is mainly cut from the *Getting started with Bioclipse 2.6* folder. There
 are two versions of Bioclipse that can be used. The main option is Bioclipse 2.6.
-But an alternative is using [Bacting](https://github.com/egonw/bacting) and Groovy.
+But an alternative is using [Bacting](https://github.com/egonw/bacting) and Groovy
+[<a href="#citeref2">2</a>].
 
 ### Downloading Bioclipse 2.6
 
@@ -27,7 +28,8 @@ Windows~8 you need to go to `System and Security` and
 then `view basic information about your computer`.  Normally, the installation program should be
 the obvious choice but if, for whatever reason, that does not work you can use
 the zip file. The Linux version is packaged as a tar.gz file and the Mac
-version comes as a .dmg file. These packages are available from https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.1/ .
+version comes as a .dmg file. These packages are available from
+[https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.2/](https://sourceforge.net/projects/bioclipse/files/bioclipse2/bioclipse2.6.2/).
 
 ### Installing
 The installation procedure differs between the operating systems. Bioclipse
@@ -163,5 +165,6 @@ Furthermore, a further set of more general objects are defined:
 ## References
 
 1. <a name="citeref1"></a>Spjuth O, Alvarsson J, Berg A, Eklund M, Kuhn S, Mäsak C, et al. Bioclipse 2: a scriptable integration platform for the life sciences. BMC Bioinf [Internet]. 2009;10(1):397. Available from: http://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-397 doi:[10.1186/1471-2105-10-397](https://doi.org/10.1186/1471-2105-10-397) ([Scholia](https://scholia.toolforge.org/doi/10.1186/1471-2105-10-397))
+2. <a name="citeref2"></a>Willighagen E. Bacting: a next generation, command line version of Bioclipse. JOSS. 2021 Jun 23;6(62):2558.  doi:[10.21105/JOSS.02558](https://doi.org/10.21105/JOSS.02558) ([Scholia](https://scholia.toolforge.org/doi/10.21105/JOSS.02558))
 
 
