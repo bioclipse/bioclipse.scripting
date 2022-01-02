@@ -15,8 +15,8 @@ how to get Bioclipse running!
 This section gives a short introduction for how to get started with Bioclipse
 and is mainly cut from the *Getting started with Bioclipse 2.6* folder. There
 are two versions of Bioclipse that can be used. The main option is Bioclipse 2.6.
-But an alternative is using [Bacting](https://github.com/egonw/bacting) and Groovy
-[<cite>Q107332190</cite>].
+But an alternative is using [Bacting](https://github.com/egonw/bacting) [<cite>Q107332190</cite>].
+Bacting can be in Groovy and in Python with [pybacting](https://github.com/cthoyt/pybacting).
 
 ### Downloading Bioclipse 2.6
 
