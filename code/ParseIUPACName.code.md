@@ -31,6 +31,24 @@ mol = opsin.parseIUPACName(
 )
 println mol
 ```
+
+### PyBacting
+
+To run this code, you first need to install
+[PyBacting](https://github.com/cthoyt/pybacting).
+<br />
+```python
+from pybacting import opsin
+
+mol = opsin.parseIUPACName(
+  "Ethyl [(1R,3aR,4aR,6R,8aR,9S,9aS)-9-" +
+  "{(E)-2-[5-(3-fluorophenyl)-2-pyridinyl]vinyl}-" +
+  "1-methyl-3-oxododecahydronaphtho[2,3-c]furan-" +
+  "6-yl]carbamate"
+)
+print(mol)
+```
+
 ## Output
 ```plain
 CDKMolecule:C29H33FN2O4
