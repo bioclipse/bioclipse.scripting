@@ -191,3 +191,15 @@ xml.validateAgainstXMLSchema(
   "/Google/solubility.rdf", xmlSchemaFile
 )
 ```
+
+## The `qudt` manager
+
+This manager requires Bacting 0.0.30 or higher but allows you to work with quantities:
+
+**Script** [code/UnitConversion.groovy](code/UnitConversion.code.md)
+```groovy
+quantity = qudt.newQuantity(1.0, "m")
+println quantity
+converted = qudt.convertTo(quantity, "cm");
+println converted
+```
