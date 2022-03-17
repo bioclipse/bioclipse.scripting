@@ -6,6 +6,7 @@ import java.io.*;
 import java.util.*;
 
 GROOVY = ".groovyin";
+PYTHON = ".pyin";
 
 inFile = args[0];
 
@@ -13,6 +14,9 @@ ending = "in";
 if (inFile.endsWith(GROOVY)) {
   suffix = GROOVY;
   templateFile = "source.groovy.template";
+} else if (inFile.endsWith(PYTHON)) {
+  suffix = PYTHON;
+  templateFile = "source.python.template";
 } else {
   println "Unsupported processing of ${inFile}"
   System.exit(-1);

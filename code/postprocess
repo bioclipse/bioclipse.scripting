@@ -6,12 +6,19 @@ import java.io.*;
 import java.util.*;
 
 GROOVY = ".groovy";
+PYTHON = ".py";
 
 inFile = args[0];
 
 if (inFile.endsWith(GROOVY)) {
   runSuffix = GROOVY;
   srcSuffix = runSuffix;
+  syntax = "groovy";
+  ending = "in"
+} else if (inFile.endsWith(PYTHON)) {
+  runSuffix = PYTHON;
+  srcSuffix = runSuffix;
+  syntax = "python"
   ending = "in"
 } else {
   println "Unsupported processing of ${inFile}"
@@ -74,7 +81,7 @@ for (int type=0; type<mdTypes.size(); type++) {
         line = line.replace("%EXT%", srcExt);
         mdWriter.write(line + "\n");
       } else if (line.contains("%SYNTAX%")) {
-        line = line.replace("%SYNTAX%", srcExt);
+        line = line.replace("%SYNTAX%", syntax);
         mdWriter.write(line + "\n");
       } else if (line.contains("%SOURCECODE%")) {
         line = line.replace("%SOURCECODE%", source.toString());

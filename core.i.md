@@ -168,8 +168,3 @@ xml.validateAgainstXMLSchema(
 )
 ```
 
-## The `qudt` manager
-
-This manager requires Bacting 0.0.30 or higher but allows you to work with quantities:
-
-<code>UnitConversion</code>
