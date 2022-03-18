@@ -10,7 +10,8 @@ println "Online? " + bioclipse.assumeOnline()
 ```
 ### Bacting
 To run this code, you first need to install
-[Bacting](https://github.com/egonw/bacting).
+[Bacting](https://github.com/egonw/bacting) (Groovy) or
+[pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
 ```groovy
 @Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.29')

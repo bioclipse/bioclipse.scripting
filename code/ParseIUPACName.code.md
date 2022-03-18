@@ -15,7 +15,8 @@ print(mol)
 ```
 ### Bacting
 To run this code, you first need to install
-[Bacting](https://github.com/egonw/bacting).
+[Bacting](https://github.com/egonw/bacting) (Groovy) or
+[pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
 ```python
 from pybacting import opsin
