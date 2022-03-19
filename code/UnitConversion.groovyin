@@ -1,0 +1,9 @@
+~@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.30')
+~
+~workspaceRoot = "../ws"
+~qudt = new net.bioclipse.managers.QUDTManager(workspaceRoot);
+~
+quantity = qudt.newQuantity(1.0, "m")
+println quantity
+converted = qudt.convertTo(quantity, "cm");
+println converted
