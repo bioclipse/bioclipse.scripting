@@ -1,0 +1,6 @@
+~from pybacting import qudt
+~
+quantity = qudt.newQuantity(1.0, "m")
+print(quantity)
+converted = qudt.convertTo(quantity, "cm");
+print(converted)

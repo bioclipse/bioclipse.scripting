@@ -1,32 +1,29 @@
-# UnitConversion.groovy
+# UnitConversion.py
 ## Source code
 The source code may use or refer to content in a local workspace. This
 Bioclipse workspace used can be found
 [on GitHub](https://github.com/bioclipse/bioclipse.scripting/tree/master/ws/).
 ### Bioclipse 2.6
-```groovy
+```python
 quantity = qudt.newQuantity(1.0, "m")
-println quantity
+print(quantity)
 converted = qudt.convertTo(quantity, "cm");
-println converted
+print(converted)
 ```
 ### Bacting
 To run this code, you first need to install
 [Bacting](https://github.com/egonw/bacting) (Groovy) or
 [pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
-```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.0.30')
-
-workspaceRoot = "../ws"
-qudt = new net.bioclipse.managers.QUDTManager(workspaceRoot);
+```python
+from pybacting import qudt
 
 quantity = qudt.newQuantity(1.0, "m")
-println quantity
+print(quantity)
 converted = qudt.convertTo(quantity, "cm");
-println converted
+print(converted)
 ```
-
+[Open in Google Colab](https://colab.research.google.com/github/bioclipse/bioclipse.scripting/blob/master/nb/UnitConversion.ipynb)
 ## Output
 ```plain
 1.0 m

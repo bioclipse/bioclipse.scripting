@@ -196,10 +196,10 @@ xml.validateAgainstXMLSchema(
 
 This manager requires Bacting 0.0.30 or higher but allows you to work with quantities:
 
-**Script** [code/UnitConversion.groovy](code/UnitConversion.code.md)
-```groovy
+**Script** [code/UnitConversion.py](code/UnitConversion.code.md)
+```python
 quantity = qudt.newQuantity(1.0, "m")
-println quantity
+print(quantity)
 converted = qudt.convertTo(quantity, "cm");
-println converted
+print(converted)
 ```
