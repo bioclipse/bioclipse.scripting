@@ -22,6 +22,7 @@ bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
 bioclipse.isOnline()
 println bioclipse.isOnline()
 ```
+
 ## Output
 ```plain
 true

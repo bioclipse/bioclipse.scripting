@@ -36,6 +36,7 @@ bioclipse.downloadAsFile(
 valid = xml.isValid("/Google/solubility.rdf")
 println "Valid? " + valid
 ```
+
 ## Output
 ```plain
 Valid? false

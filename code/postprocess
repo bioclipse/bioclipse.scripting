@@ -89,6 +89,13 @@ for (int type=0; type<mdTypes.size(); type++) {
       } else if (line.contains("%BACTING%")) {
         line = line.replace("%BACTING%", bacting.toString());
         mdWriter.write(line);
+      } else if (line.contains("%OPEN%")) {
+        if (syntax == "python") {
+          line = line.replace("%OPEN%", "[Open in Google Colab](https://colab.research.google.com/github/bioclipse/bioclipse.scripting/blob/master/nb/" + runClass + ".ipynb)\n");
+          mdWriter.write(line);
+        } else {
+          mdWriter.write(line.replace("%OPEN%","") + "\n")
+        }
       } else if (line.contains("%OUT%")) {
         def srcLines = new File(runClass + ".out").readLines()
         srcLines.each { String srcLine -> mdWriter.write(srcLine + "\n") }
@@ -100,4 +107,3 @@ for (int type=0; type<mdTypes.size(); type++) {
   }
   mdWriter.close();
 }
-

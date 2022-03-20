@@ -34,6 +34,7 @@ InChIKey = anInChI.getKey()
 println "InChI: " + fullInChI
 println "InChIKey: " + InChIKey
 ```
+
 ## Output
 ```plain
 InChI: InChI=1S/CH4/h1H4

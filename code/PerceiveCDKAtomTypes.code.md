@@ -26,6 +26,7 @@ mol = cdk.fromSMILES("CCO")
 cdx.perceiveCDKAtomTypes(mol)
 print cdx.perceiveCDKAtomTypes(mol)
 ```
+
 ## Output
 ```plain
 1:C.sp3

@@ -28,6 +28,7 @@ anInChI = inchi.generate(
 )
 println anInChI.value
 ```
+
 ## Output
 ```plain
 InChI=1S/CH4/h1H4

@@ -24,6 +24,7 @@ inchi = new net.bioclipse.managers.InChIManager(workspaceRoot);
 inchi.load()
 inchi.isLoaded()
 ```
+
 ## Output
 ```plain
 ```

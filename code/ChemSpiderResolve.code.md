@@ -22,6 +22,7 @@ chemspider = new net.bioclipse.managers.ChemspiderManager(workspaceRoot);
 chemspider.resolve("RCINICONZNJXQF-MZXODVADSA-N")
 println chemspider.resolve("RCINICONZNJXQF-MZXODVADSA-N")
 ```
+
 ## Output
 ```plain
 [10368587]

@@ -30,6 +30,7 @@ dataMap = bioclipse.fullPath(
 gpmlFiles = new File(dataMap).listFiles()
 println gpmlFiles
 ```
+
 ## Output
 ```plain
 [../ws/WikiPathways/data/human/WP3577_94507.gpml]

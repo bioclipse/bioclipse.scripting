@@ -20,6 +20,7 @@ rdf = new net.bioclipse.managers.RDFManager(workspaceRoot);
 
 base = rdf.createStore("/tmp/chebiowl")
 ```
+
 ## Output
 ```plain
 ```

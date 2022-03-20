@@ -22,6 +22,7 @@ cdk = new net.bioclipse.managers.CDKManager(workspaceRoot);
 mol = cdk.fromSMILES("COC")
 println mol
 ```
+
 ## Output
 ```plain
 CDKMolecule:C2H6O

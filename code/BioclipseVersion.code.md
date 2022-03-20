@@ -20,6 +20,7 @@ bioclipse = new net.bioclipse.managers.BioclipseManager(workspaceRoot);
 
 println "Bioclipse " + bioclipse.version()
 ```
+
 ## Output
 ```plain
 Bioclipse 2.8.0

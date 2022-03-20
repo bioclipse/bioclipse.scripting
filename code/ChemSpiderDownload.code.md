@@ -22,6 +22,7 @@ chemspider = new net.bioclipse.managers.ChemspiderManager(workspaceRoot);
 chemspider.download(9606)
 println chemspider.download(9606)
 ```
+
 ## Output
 ```plain
 CDKMolecule:C3H4ClF3

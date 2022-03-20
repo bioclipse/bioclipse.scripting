@@ -22,6 +22,7 @@ pubchem = new net.bioclipse.managers.PubChemManager(workspaceRoot);
 pubchem.search("tamoxifen")
 println pubchem.search("tamoxifen")
 ```
+
 ## Output
 ```plain
 [162342122, 134695255, 133611905, 131769958, 131...

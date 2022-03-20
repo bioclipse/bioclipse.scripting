@@ -36,6 +36,7 @@ bioclipse.downloadAsFile(
 wellformed = xml.isWellFormed("/Google/solubility.rdf")
 println "Well-formed? " + wellformed
 ```
+
 ## Output
 ```plain
 Well-formed? true

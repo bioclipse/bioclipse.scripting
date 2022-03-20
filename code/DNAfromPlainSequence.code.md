@@ -30,8 +30,9 @@ dna = biojava.DNAfromPlainSequence(
 )
 println dna
 ```
+
 ## Output
 ```plain
-DNA seq1647588990991: 'gcat'
+DNA seq1647776888318: 'gcat'
 DNA dummy sequence: 'gcat'
 ```

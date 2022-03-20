@@ -36,6 +36,7 @@ bioclipse.downloadAsFile(
 wellformed = xml.listNamespaces("/Google/solubility.rdf")
 println "Namespaces: " + wellformed
 ```
+
 ## Output
 ```plain
 Namespaces: [http://www.w3.org/1999/02/22-rdf-sy...
