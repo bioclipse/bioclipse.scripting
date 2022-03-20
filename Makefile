@@ -4,6 +4,7 @@ TARGETS := core.md chem.md intro.md bio.md semweb.md \
   services.md
 
 all: ${TARGETS}
+	@cp code/*.ipynb nb/.
 
 clean:
 	@rm -f ${TARGETS}

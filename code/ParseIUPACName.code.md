@@ -29,6 +29,7 @@ mol = opsin.parseIUPACName(
 )
 print(mol)
 ```
+[Open in Google Colab](https://colab.research.google.com/github/bioclipse/bioclipse.scripting/blob/master/nb/ParseIUPACName.ipynb)
 ## Output
 ```plain
 CDKMolecule:C29H33FN2O4
