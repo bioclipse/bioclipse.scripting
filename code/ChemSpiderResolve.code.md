@@ -14,7 +14,7 @@ To run this code, you first need to install
 [pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-chemspider', version='0.0.29')
+@Grab(group='io.github.egonw.bacting', module='managers-chemspider', version='0.1.2')
 
 workspaceRoot = "../ws"
 chemspider = new net.bioclipse.managers.ChemspiderManager(workspaceRoot);

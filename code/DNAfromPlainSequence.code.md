@@ -18,7 +18,7 @@ To run this code, you first need to install
 [pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.0.29')
+@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.1.2')
 
 workspaceRoot = "../ws"
 biojava = new net.bioclipse.managers.BiojavaManager(workspaceRoot);
@@ -33,6 +33,6 @@ println dna
 
 ## Output
 ```plain
-DNA seq1647776888318: 'gcat'
+DNA seq1666425062102: 'gcat'
 DNA dummy sequence: 'gcat'
 ```

@@ -1,4 +1,4 @@
-~@Grab(group='io.github.egonw.bacting', module='managers-pubchem', version='0.0.29')
+~@Grab(group='io.github.egonw.bacting', module='managers-pubchem', version='0.1.2')
 ~
 ~workspaceRoot = "../ws"
 ~pubchem = new net.bioclipse.managers.PubChemManager(workspaceRoot);

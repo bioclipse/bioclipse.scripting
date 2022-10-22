@@ -1,4 +1,4 @@
-~@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.0.29')
+~@Grab(group='io.github.egonw.bacting', module='managers-biojava', version='0.1.2')
 ~
 ~workspaceRoot = "../ws"
 ~biojava = new net.bioclipse.managers.BiojavaManager(workspaceRoot);

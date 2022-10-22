@@ -14,8 +14,8 @@ To run this code, you first need to install
 [pyBacting](https://pypi.org/project/pybacting/) (Python).
 <br />
 ```groovy
-@Grab(group='io.github.egonw.bacting', module='managers-opsin', version='0.0.29')
-@Grab(group='io.github.egonw.bacting', module='managers-inchi', version='0.0.29')
+@Grab(group='io.github.egonw.bacting', module='managers-opsin', version='0.1.2')
+@Grab(group='io.github.egonw.bacting', module='managers-inchi', version='0.1.2')
 
 workspaceRoot = "../ws"
 opsin = new net.bioclipse.managers.OpsinManager(workspaceRoot);
